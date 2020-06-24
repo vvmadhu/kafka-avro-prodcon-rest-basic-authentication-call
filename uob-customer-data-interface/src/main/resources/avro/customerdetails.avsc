@@ -1,0 +1,21 @@
+{"namespace": "com.hcl.uob.poc.model",
+  "type": "record",
+  "name": "CustomerDetails",
+  "fields": [
+    {"name": "card",  "type": "int"},
+    {"name": "custId", "type": "string"},
+    {"name": "transaction_amount", "type": "string"},
+    {"name": "first_name", "type": "string"},
+    {"name": "middle_name", "type": "string"},
+    {"name": "last_name", "type": "string"},
+    {"name": "dob", "type": "string"},
+    {"name": "gender", "type": "string"},
+    {"name": "nationality", "type": "string"},
+    {"name": "marital_status", "type": "string"},
+    {"name": "occupation", "type": "string"},
+    {"name": "avg_family_size", "type": "string"},
+    {"name": "income_level", "type": "string"},
+    {"name": "location", "type": "string"},
+    {"name": "emailId", "type": "string"}
+  ]
+}
